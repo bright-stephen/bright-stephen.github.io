@@ -12,8 +12,15 @@ header{
 }
 section{
     width: 100%;
-    height: 1500px;
+    height: 1600px;
     padding: 120px 80px;
+}
+.row{
+    box-shadow: 4px 4px 16px #24292a;
+    margin-top: 80px;
+}
+.roll{
+    box-shadow: 4px 4px 16px #24292a;
 }
 .div-1{
     display: flex;
@@ -78,6 +85,7 @@ h1{
     margin-left: 50px;
     margin-top: 20px;
     border: 1px solid silver;
+    box-shadow: 4px 4px 16px #24292a;
     padding: 30px;
     border-radius: 20px;
     font-size: 15px;
@@ -107,10 +115,9 @@ h2{
     height: 200px;
     position: absolute;
     left: 320px;
-    top: 2000px
-    
-
+    top: 2100px
 }
+
 
 
 
@@ -323,7 +330,7 @@ h2{
     }
     section{
         width: 100%;
-        height: 1550px;
+        height: 1900px;
         padding: 120px 80px;
     }
     footer{
@@ -359,7 +366,7 @@ h2{
         height: 200px;
         position: absolute;
         left: 180px;
-        top: 1950px  
+        top: 2300px  
     }
     .div-2-1{
         margin-left: 0px;
@@ -708,21 +715,25 @@ h2{
     header{
         height: 900px;
         margin-left: 20px;
+        padding: 30px;
     }
     section{
         height: 2000px;
+        padding: 30px;
     }
     footer{
-        height: 1200px;
+        height: 1000px;
         background-color: #00252E;
         color: white;
         display: flex;
         flex-direction: column;
         gap: 30px;
-        padding: 100px;
+        padding: 30px;
     }
+    
     .div-2-3{
-        margin-left: 150px;
+        margin-left: 50px;
+        text-align: center;
     }
     .roll-1B{
         background-color: #F34FB8;
@@ -741,7 +752,7 @@ h2{
     .none{
         width: 500px;
         margin-left: 0px;
-        margin-top: 20px;
+        margin-top: 80px;
         border: 1px solid silver;
         padding: 30px;
         border-radius: 20px;
@@ -813,10 +824,14 @@ h2{
     }
     .image-6{
         height: 20px;
-        margin-left: 30px;
+        margin-left: 70px;
+    }
+    .images{
+        margin-left: 40px;
     }
     .p-4{
         font-size: 20px;
+        margin-left: 50px;
     }
     .p-3{
         font-size: 18px;
@@ -827,13 +842,16 @@ h2{
     h3{
         font-size: 30px;
     }
+    .image-h{
+        height: 30px;
+    }
 
 }
 
 
 
 /* for Extra small devices */
-@media (max-width:575px){
+@media (min-width:361px) and (max-width:575px){
     .col-1{
         width: 8.33%;
     }
@@ -883,25 +901,51 @@ h2{
         margin-bottom: 50px;
     }
     header{
-        height:1200px;
+        height:1000px;
         margin-left: 20px;
+        padding: 10px;
     }
     section{
         height: 1700px;
+        padding: 50px;
+    }
+    .div-1-1{
+        padding: 5px 10px;
+        text-align: center;
+    }
+    .px{
+        font-size: 20px;
+    }
+    .p-1{
+        font-size: 12px;
+        margin: 10px;
+    }
+    h1{
+        font-size: 10px;
+    }
+    .div-2-3{
+        margin-left: 80px;
     }
     footer{
-        height: 1000px;
+        height: 800px;
         display: flex;
         flex-direction: column;
         gap: 10px;
         background-color: #00252E;
         color: white;
-        padding: 100px;
+        padding: 20px;
+    }
+    .div-1{
+        margin-top: 50px;
     }
     .image-4{
         height: 250px;
         border: 2px solid silver;
         border-radius: 20px;
+    }
+    .image-3{
+        height: 20px;
+        
     }
     .roll{
         font-family: Arial, Helvetica, sans-serif;
@@ -911,10 +955,10 @@ h2{
         border-radius: 10px;
         padding: 40px;
         text-align: center;
-        height: 200px;
+        height: 150px;
         position: absolute;
-        left: 60px;
-        top: 2800px
+        left: 40px;
+        top: 2630px
     }
     .image-4{
         display: none;
@@ -929,15 +973,15 @@ h2{
         display: block;
     }
     .h2-2{
-        font-size: 20px;
+        font-size: 15px;
     }
     .p2-2{
-        font-size: 14px;
+        font-size: 12px;
     }
     .none{
-        width: 400px;
+        width: 350px;
         margin-left: 0px;
-        margin-top: 20px;
+        margin-top: 50px;
         border: 1px solid silver;
         padding: 30px;
         border-radius: 20px;
@@ -947,7 +991,7 @@ h2{
     .roll-1B{
         background-color: #F34FB8;
         text-align: center;
-        margin-left: 50px;
+        margin-left: 35px;
         padding: 10px 0px;
         border-radius: 30px;
     
@@ -999,11 +1043,238 @@ h2{
         height: 20px;
         margin-left: 30px;
     }
+    .image-h{
+        height: 20px;
+        
+    }
+    .images{
+        margin-left: 60px;
+    }
     .p-4{
         font-size: 12px;
+        margin-left: 50px;
     }
+ 
+ /* For xtra Extra-small Devices */
+}
+@media (max-width:360px){
+    .col-xs-1{
+        width: 8.33%;
+    }
+    .col-xs-2{
+        width: 16.66%;
+    }
+    .col-xs-3{
+        width: 25%;
+    }
+    .col-xs-4{
+        width:33.33% ;
+    }
+    .col-xs-5{
+        width: 41.66%;
+    }
+    .col-xs-6{
+        width: 50%;
+    }
+    .col-xs-7{
+        width: 58.33%;
+    }
+    .col-xs-8{
+        width: 66.66%;
+    }
+    .col-xs-9{
+        width: 75%;
+    }
+    .col-xs-10{
+        width:83.33% ;
+    }
+    .col-xs-11{
+        width: 91.66%;
+    }
+    .col-xs-12{
+        width: 100%;
+    } 
+
+
+    h1{
+        font-size: 15px;
+    }
+    .p-1{
+        font-size: 25px;
+    }
+    .div-2-3{
+        margin-bottom: 50px;
+    }
+    header{
+        height:850px;
+        margin-left: 20px;
+        padding: 10px;
+    }
+    section{
+        height: 1300px;
+        padding: 40px;
+    }
+    footer{
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #00252E;
+        color: white;
+        padding: 20px;
+    }
+    .div-1{
+        margin-top: 50px;
+    }
+    .div-2-3{
+        padding: 10px;
+        text-align: center;
+        margin-left: 60px;
+    }
+    .pp{
+            font-size: 10px;
+    }
+    h1{
+        font-size: 12px;
+    }
+    .px{
+        font-size: 20px;
+    }
+    .p-1{
+        font-size: 12px;
+        margin: 0px 10px;
+    }
+    .div-1-1{
+        padding: 10px;
+        text-align: center;
+    }
+    .image-2{
+        height: 200px;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    .image-3{
+        height: 20px;
+    }
+    .image-h{
+        height: 20px;
+    }
+    .image-4{
+        height: 250px;
+        border: 2px solid silver;
+        border-radius: 20px;
+    }
+    .roll{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        border: 3px solid rgb(240, 239, 239);
+        margin-bottom: 20px;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        height: 100px;
+        position: absolute;
+        left: 50px;
+        top: 2100px
+    }
+    .image-4{
+        display: none;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .row{
+        display: none;
+    }
+    .image-4n{
+        height: 180px;
+        padding: 30px;
+        border-radius: 20px;
+        display: block;
+    }
+    .h2-2{
+        font-size: 12px;
+    }
+    .p2-2{
+        font-size: 7px;
+    }
+    .none{
+        width: 250px;
+        margin-left: 0px;
+        margin-top: 40px;
+        border: 1px solid silver;
+        padding: 20px;
+        border-radius: 20px;
+        font-size: 15px;
+        display: block;
+    }
+    .row-1Bn{
+       padding: 5px;
+
+    }
+    .p-2{
+        font-size: 12px;
+    }
+    .roll-1B{
+        background-color: #F34FB8;
+        text-align: center;
+        margin-left: 25px;
+        padding: 2px 20px;
+        border-radius: 30px;
     
-    
-    
-    
+    }
+    .colum-1{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .colum-1A{
+        margin-top: 100px;
+        display: flex;
+    }
+    .colum-1B{
+        display: flex;
+        gap: 15px;
+    }
+    .colum-1C{
+        display: flex;
+        gap: 15px;
+    }
+    .colum-1D{
+        display: flex;
+        gap: 15px;
+    }
+    .colum-2{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .colum-3{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .colum-4{
+        margin-top: 50px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .image-5{
+        height: 15px;
+    }
+    .image-6{
+        height: 20px;
+        margin-left: 30px;
+    }
+    .p-4{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .p-5{
+        font-size: 10px;
+    }
 }
