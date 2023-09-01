@@ -927,7 +927,7 @@ h2{
         margin-left: 80px;
     }
     footer{
-        height: 800px;
+        height: 1000px;
         display: flex;
         flex-direction: column;
         gap: 10px;
