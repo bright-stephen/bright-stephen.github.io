@@ -426,7 +426,7 @@ a{
     }
     section{
         padding: 0px 100px;
-        height: 3500px;
+        height: 3700px;
     }
     .line{
         border-bottom: 5px solid black;
@@ -441,6 +441,12 @@ a{
         margin: 70px;
     
     }
+    .h1-8{
+        font-size: 20px;
+    }
+    .h1-6{
+        font-size: 20px;
+    }
     .f{
         padding: 12px;
         height: 50px;
@@ -454,6 +460,7 @@ a{
     .h1-4{
         margin-left: 250px;
         margin-top: 10px;
+        font-size: 20px;
     }
     .h1-5{
         font-size: 15px;
@@ -474,13 +481,15 @@ a{
         height: 100px;
         margin-top: 30px;
     }
+    .h1-7{
+        font-size: 13px;
+    }
     .img-3{
         display: flex;
         gap: 10px;
     }
     .clients{
         margin-top: 30px;
-        margin-left: 20px;
         border: 1px solid peru;
         border-radius: 20px;
         padding: 3px;
@@ -1491,7 +1500,7 @@ a{
     }
     section{
         padding: 0px 30px;
-        height: 2800px;
+        height: 3100px;
     }
     .line{
         border-bottom: 5px solid black;
