@@ -162,6 +162,7 @@ a{
     }
     .h1-5{
         font-size: 15px;
+        margin-top: 15px;
     }
     .h1-7{
         font-size: 15px;
@@ -428,7 +429,7 @@ a{
     }
     section{
         padding: 0px 100px;
-        height: 4500px;
+        height: 4600px;
     }
     .line{
         border-bottom: 5px solid black;
@@ -466,6 +467,7 @@ a{
     }
     .h1-5{
         font-size: 15px;
+        margin-top: 15px;
     }
     .main{
         display: flex;
@@ -765,6 +767,7 @@ a{
     }
     .h1-5{
         font-size: 10px;
+        margin-top: 15px;
     }
     .main{
         display: flex;
@@ -1020,6 +1023,7 @@ a{
     }
     .h1-5{
         font-size: 8px;
+        margin-top: 10px;
     }
     .main{
         display: flex;
@@ -1255,7 +1259,7 @@ a{
     }
     section{
         padding: 0px 30px;
-        height: 4800px;
+        height: 4900px;
     }
     .line{
         border-bottom: 5px solid black;
@@ -1271,6 +1275,7 @@ a{
     }
     .h1-5{
         font-size: 8px;
+        margin-top: 10px;
     }
     .main{
         display: none;
@@ -1505,7 +1510,7 @@ a{
     }
     section{
         padding: 0px 30px;
-        height: 4400px;
+        height: 4500px;
     }
     .line{
         border-bottom: 5px solid black;
@@ -1521,6 +1526,7 @@ a{
     }
     .h1-5{
         font-size: 8px;
+        margin-top: 10px;
     }
     .main{
        display: none;
