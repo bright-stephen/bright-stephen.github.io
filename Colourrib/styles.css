@@ -66,6 +66,57 @@ a{
 .p-6{
     font-size: 12px;
 }
+.dat{
+    margin-top: 30px;
+}
+.formdat{
+    background-color: #FF66C4;
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid #008CD3;
+}
+.form-1{
+    border: 3px solid #008CD3;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+   margin-left: 10px;
+   margin-bottom: 15px;
+}
+.form-2{
+    border: 3px solid #008CD3;
+    width: 73%;
+    height: 40px;
+    border-radius: 10px;
+   margin-left: 10px;
+   margin-bottom: 15px;
+}
+.form-3{
+    border: 3px solid #008CD3;
+    width: 58%;
+    height: 40px;
+    border-radius: 10px;
+   margin-left: 10px;
+   margin-bottom: 15px;
+}
+.form-4{
+    border: 3px solid #008CD3;
+    width: 56%;
+    height: 40px;
+    border-radius: 10px;
+   margin-left: 10px;
+   margin-bottom: 15px;
+}
+.formbut{
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #008CD3;
+    color: #E3E3E1;
+    border: 2px solid #FF66C4;
+    border-radius: 10px;
+    margin-left: 250px
+}
 
 
 /* responsive design
