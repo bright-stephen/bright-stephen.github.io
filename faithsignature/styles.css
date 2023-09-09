@@ -111,7 +111,7 @@ a{
     }
     section{
         padding: 0px 100px;
-        height: 5000px;
+        height: 6800px;
     }
     .line{
         border-bottom: 5px solid black;
@@ -204,12 +204,10 @@ a{
     .my{
         display: flex;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 100px;
     }
     .image-6{
         height: 250px;
-        margin-top: 20px;
-        border-radius: 20px;
     }
     .h1-6{
         margin-top: 10px;
@@ -430,7 +428,7 @@ a{
     }
     section{
         padding: 0px 100px;
-        height: 3700px;
+        height: 4500px;
     }
     .line{
         border-bottom: 5px solid black;
@@ -506,125 +504,123 @@ a{
     .p1{
         font-size: 10px;
     }
-   .my{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-   }
-   .image-6{
-    height: 200px;
-    margin-top: 20px;
-    border-radius: 20px;
-   }
-   .h1-6{
-    margin-top: 10px;
-    margin-left: 300px;
-   }
-   footer{
-        height: 500px;
-        padding: 20px 50px;
-    }
-    main{
-        display: flex;
-        gap: 100px;
-    }
-    .foot-1{
+    .my{
         display: flex;
         flex-wrap: wrap;
+        gap: 70px;
     }
-    .foot-4{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 100px;
-        margin-top: 50px;
+    .image-6{
+        height: 200px;
     }
-    .image-8{
-        height: 50px;
-    }
-    .image-9{
-        height: 50px;
-        margin-top: 20px;
-    }
-    .con{
-        display: flex;
-        gap: 30px;
-    }
-    .p2{
-        display: inline;
-        font-size: 20px;
-        margin-left: 20px;
-    }
-    aside{
-        margin-top: 50px;
-    }
-    .line2{
-        border-bottom: 2px solid white;
-    }
-    footer{
-        height: 700px;
-        padding: 20px 50px;
-    }
-    main{
-        display: flex;
-        gap: 100px;
-    }
-    .foot-1{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .foot-4{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 100px;
-        margin-top: 50px;
-    }
-    .image-8{
-        height: 50px;
-        margin-top: 20px;
-    }
-    .image-9{
-        height: 50px;
-        margin-top: 20px;
-    }
-    .con{
-        display: flex;
-        gap: 30px;
-    }
-    .p2{
-        display: inline;
-        font-size: 20px;
-        margin-left: 20px;
-    }
-    aside{
-        margin-top: 50px;
-        margin-bottom: 20px;
-    }
-    .line2{
-        border-bottom: 2px solid white;
-    }
-    .h1-9{
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
-    .p3{
-        font-size: 8px;
-        margin-top: 20px;
+    .h1-6{
+        margin-top: 10px;
         margin-left: 300px;
     }
-    h6{
-        margin-top: 50px;
-        margin-left: 200px;
-    }
-    .none{
-        display: none;
-    }
-    .flip{
-        height: 600px;
-    }
+    footer{
+            height: 500px;
+            padding: 20px 50px;
+        }
+        main{
+            display: flex;
+            gap: 100px;
+        }
+        .foot-1{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .foot-4{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 100px;
+            margin-top: 50px;
+        }
+        .image-8{
+            height: 50px;
+        }
+        .image-9{
+            height: 50px;
+            margin-top: 20px;
+        }
+        .con{
+            display: flex;
+            gap: 30px;
+        }
+        .p2{
+            display: inline;
+            font-size: 20px;
+            margin-left: 20px;
+        }
+        aside{
+            margin-top: 50px;
+        }
+        .line2{
+            border-bottom: 2px solid white;
+        }
+        footer{
+            height: 700px;
+            padding: 20px 50px;
+        }
+        main{
+            display: flex;
+            gap: 100px;
+        }
+        .foot-1{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .foot-4{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 100px;
+            margin-top: 50px;
+        }
+        .image-8{
+            height: 50px;
+            margin-top: 20px;
+        }
+        .image-9{
+            height: 50px;
+            margin-top: 20px;
+        }
+        .con{
+            display: flex;
+            gap: 30px;
+        }
+        .p2{
+            display: inline;
+            font-size: 20px;
+            margin-left: 20px;
+        }
+        aside{
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        .line2{
+            border-bottom: 2px solid white;
+        }
+        .h1-9{
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .p3{
+            font-size: 8px;
+            margin-top: 20px;
+            margin-left: 300px;
+        }
+        h6{
+            margin-top: 50px;
+            margin-left: 200px;
+        }
+        .none{
+            display: none;
+        }
+        .flip{
+            height: 600px;
+        }
 
 
 
-   
+    
 
 
 
@@ -737,7 +733,7 @@ a{
     }
     section{
         padding: 0px 100px;
-        height: 3000px;
+        height: 4000px;
     }
     .line{
         border-bottom: 5px solid black;
@@ -815,13 +811,10 @@ a{
     .my{
         display: flex;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 50px;
     }
     .image-6{
         height: 150px;
-        margin-top: 20px;
-        border-radius: 20px;
-        box-shadow: 3px 3px 3px 3px silver; ;
     }
     .h1-6{
         margin-top: 10px;
@@ -1002,7 +995,7 @@ a{
     }
     section{
         padding: 0px 30px;
-        height: 2500px;
+        height: 3100px;
     }
     .line{
         border-bottom: 5px solid black;
@@ -1081,9 +1074,6 @@ a{
     }
     .image-6{
         height: 100px;
-        margin-top: 20px;
-        border-radius: 20px;
-        box-shadow: 3px 3px 3px 3px silver; ;
     }
     .h1-6{
         margin-top: 10px;
@@ -1265,7 +1255,7 @@ a{
     }
     section{
         padding: 0px 30px;
-        height: 3800px;
+        height: 4800px;
     }
     .line{
         border-bottom: 5px solid black;
@@ -1330,11 +1320,10 @@ a{
     .my{
         display: flex;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 10px;
     }
     .image-6{
-        height: 180px;
-        margin-top: 20px;
+        height: 150px;
     }
     .h1-6{
         margin-top: 10px;
@@ -1516,7 +1505,7 @@ a{
     }
     section{
         padding: 0px 30px;
-        height: 3100px;
+        height: 4400px;
     }
     .line{
         border-bottom: 5px solid black;
