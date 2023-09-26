@@ -77,7 +77,7 @@ a{
 }
 .form-1{
     border: 3px solid #008CD3;
-    width: 80%;
+    width: 75%;
     height: 40px;
     border-radius: 10px;
    margin-left: 10px;
@@ -85,7 +85,7 @@ a{
 }
 .form-2{
     border: 3px solid #008CD3;
-    width: 73%;
+    width: 67%;
     height: 40px;
     border-radius: 10px;
    margin-left: 10px;
@@ -93,7 +93,7 @@ a{
 }
 .form-3{
     border: 3px solid #008CD3;
-    width: 58%;
+    width: 54%;
     height: 40px;
     border-radius: 10px;
    margin-left: 10px;
@@ -101,7 +101,7 @@ a{
 }
 .form-4{
     border: 3px solid #008CD3;
-    width: 56%;
+    width: 52%;
     height: 40px;
     border-radius: 10px;
    margin-left: 10px;
@@ -328,7 +328,7 @@ a{
         justify-content: space-between;
     }
     .image1{
-        height: 17px;
+        height: 25px;
         margin-top: 10px;
     }
     .image2{
@@ -385,6 +385,7 @@ a{
     .image5{
         height: 30px;
         margin-left: 80px;
+        margin-bottom: 10px;
     }
     .copy{
         margin-top: 20px;
@@ -501,7 +502,7 @@ a{
         padding: 70px;
     }
     .image1{
-        height: 17px;
+        height: 25px;
         margin-top: 10px;
     }
     .image2{
@@ -555,6 +556,7 @@ a{
     .image5{
         height: 30px;
         margin-left: 40px;
+        margin-bottom: 10px;
     }
     .copy{
         margin-top: 20px;
@@ -647,7 +649,7 @@ a{
         justify-content: space-between;
     }
     .image1{
-        height: 17px;
+        height: 25px;
         margin-top: 10px;
     }
     .image2{
@@ -702,8 +704,9 @@ a{
         gap: 60px;
     }
     .image5{
-        height: 20px;
+        height: 25px;
         margin-left: 10px;
+        margin-bottom: 10px;
     }
     .copy{
         margin-top: 20px;
@@ -800,7 +803,7 @@ a{
         justify-content: space-between;
     }
     .image1{
-        height: 17px;
+        height: 25px;
         margin-top: 10px;
     }
     .image2{
@@ -859,8 +862,9 @@ a{
         gap: 30px;
     }
     .image5{
-        height: 15px;
-        margin-left: 10px;
+        height: 20px;
+        /* margin-left: 10px; */
+        margin-bottom: 10px;
     }
     .copy{
         margin-top: 20px;
@@ -877,7 +881,7 @@ a{
         font-size: 12px;
     }
     .foot-1c{
-        font-size: 8px;
+        font-size: 12px;
     }
 
     /* cart */
@@ -950,7 +954,9 @@ a{
         width: 100%;
     }
     
-    
+    .font-1{
+        font-size: 13px;
+    }
     .first-1{
         display: flex;
         gap: 20px;
@@ -960,7 +966,7 @@ a{
         justify-content: space-between;
     }
     .image1{
-        height: 17px;
+        height: 25px;
         margin-top: 10px;
     }
     .image2{
@@ -1031,7 +1037,7 @@ a{
         gap: 10px;
     }
     .image5{
-        height: 15px;
+        height: 20px;
         margin-left: 20px;
     }
     .copy{
@@ -1048,7 +1054,7 @@ a{
         font-size: 8px;
     }
     .foot-1c{
-        font-size: 4px;
+        font-size: 10px;
     }
 
     /* cart */
