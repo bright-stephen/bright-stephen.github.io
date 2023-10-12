@@ -92,6 +92,9 @@
     .marg-top{
         margin-top: 20px;
     }
+    .image-1b{
+        height: 20px;
+    }
 }
 
 /* for Xtra Extra small devices */
@@ -143,6 +146,9 @@
     }
     .marg-top{
         margin-top: 20px;
+    }
+    .image-1b{
+        height: 20px;
     }
 }
 
@@ -196,5 +202,8 @@
     }
     .marg-top{
         margin-top: 20px;
+    }
+    .image-1b{
+        height: 20px;
     }
 }

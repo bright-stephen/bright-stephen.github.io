@@ -10,13 +10,10 @@
 <body>
     <!-- header  -->
     <!-- nav-bar -->
-    <div>
-        <img src="images/v915-techi-020.jpg" class="img-fluid" alt="">
-    </div>
-    <nav class="navbar navbar-expand-lg col-12 position-absolute top-0">
-        <div class="container-fluid bg-transparent">
-            <a class="navbar-brand col-2 active bold-1 text-warning" href="index.html">ARC TRAVELS</a>
-            <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid bg-primary">
+            <a class="navbar-brand col-2 active bold-1 text-black" href="index.html">ARC TRAVELS</a>
+            <button class="navbar-toggler bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse col-9" id="navbarSupportedContent">
@@ -37,7 +34,7 @@
                         <a class="nav-link active text-dark bold-1" href="#">CONTACTS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active text-dark bold-1" href="sign.html">REGISTER</a>
+                        <a class="nav-link active text-dark bold-1" href="sign.html">SIGN IN</a>
                     </li>
                 </ul>
                 <form class="d-flex p-3" role="search">
@@ -47,17 +44,104 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid" style="background-color: #072959; height: 500px;">
-        <div class="row">
-            <div>
-
+    <!-- main section -->
+    <div class="container-fluid mt-5">
+        <div class="row justify-content-center">
+            <div class="col-10 col-xs-10">
+                <form action="https://codeliber.com/form-action.php" onsubmit="return        validateForm()">
+                    <label for="firstname" class="col-12 col-xs-12 mb-2 h6 font-smb">Firstname</label>
+                    <input type="text" name="firstname" id="firstname" class="col-lg-4 col-md-6 col-sm-8 col-12 col-xs-12 rounded-3 formhp">
+                    <br>
+                    <label for="lastname" class="col-12 col-xs-12 mb-2 h6 font-smb">Lastname</label>
+                    <input type="text" name="lastname" id="lastname" class="col-lg-4 col-md-6 col-sm-8 col-12 col-xs-12 rounded-3 formhp">
+                    <br>
+                    <label for="address" class="col-12 col-xs-12 mb-2 mt-2 h6 font-smb">Address</label>
+                    <input type="text" name="address" id="address" class="col-lg-4 col-md-6 col-sm-8 col-12 col-xs-12 rounded-3 formhp">
+                    <br>
+                    <label for="email" class="col-12 col-xs-12 mb-2 h6 font-smb">Email</label>
+                    <input type="email" name="email" id="email" class="col-lg-4 col-md-6 col-sm-8 col-12 col-xs-12 rounded-3 formhp">
+                    <br>
+                    <label for="phone" class="col-12 col-xs-12 mb-2 h6 font-smb">Phone Number</label>
+                    <input type="number" name="phone" id="phone" class="col-lg-4 col-md-6 col-sm-8 col-12 col-xs-12 rounded-3 formhp">
+                    <br>
+                    <label for="month" class="mt-3 h6 font-smb">Date of Birth</label>
+                    <select name="month" id="month">
+                        <option value="1-">1</option>
+                        <option value="2-">2</option>
+                        <option value="3-">3</option>
+                        <option value="4-">4</option>
+                        <option value="5-">5</option>
+                        <option value="6-">6</option>
+                        <option value="7-">7</option>
+                        <option value="8-">8</option>
+                        <option value="9-">9</option>
+                        <option value="10-">10</option>
+                        <option value="11-">11</option>
+                        <option value="12-">12</option>
+                        <option value="13-">13</option>
+                        <option value="14-">14</option>
+                        <option value="15-">15</option>
+                        <option value="16-">16</option>
+                        <option value="17-">17</option>
+                        <option value="18-">18</option>
+                        <option value="19-">19</option>
+                        <option value="20-">20</option>
+                        <option value="21-">21</option>
+                        <option value="22-">22</option>
+                        <option value="23-">23</option>
+                        <option value="24-">24</option>
+                        <option value="25-">25</option>
+                        <option value="26-">26</option>
+                        <option value="27-">27</option>
+                        <option value="28-">28</option>
+                        <option value="29-">29</option>
+                        <option value="30-">30</option>
+                        <option value="31-">31</option>
+                    </select>
+                    <select name="month2" id="month2">
+                        <option value="January">1</option>
+                        <option value="Febuary">2</option>
+                        <option value="March">3</option>
+                        <option value="April">4</option>
+                        <option value="May">5</option>
+                        <option value="June">6</option>
+                        <option value="July">7</option>
+                        <option value="August">8</option>
+                        <option value="September">9</option>
+                        <option value="October">10</option>
+                        <option value="November">11</option>
+                        <option value="December">12</option>
+                    </select>
+                    <select name="month3" id="month3">
+                        <option value="-1999">1999</option>
+                        <option value="-1998">1998</option>
+                        <option value="-1997">1997</option>
+                        <option value="-1996">1996</option>
+                        <option value="-1995">1995</option>
+                        <option value="-1994">1994</option>
+                        <option value="-1993">1993</option>
+                        <option value="-1992">1992</option>
+                        <option value="-1991">1991</option>
+                        <option value="-1990">1990</option>
+                        <option value="-1989">1989</option>
+                    </select>
+                    <p class="h6 font-smb col-1 col-xs-1"><span id="demo" class="h6 font-smb"></span><span id="demo2" class="h6 font-smb"></span><span id="demo3" class="h6 font-smb"></span></p>
+                    <button type="submit" class="mt-3 mb-3 p-1 bg-info h6 font-smb rounded-3">SUBMIT</button>
+                    <div>
+                        <p class="h6 font-smb">Already have an account?</p>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-8 col-xs-12 bg-primary rounded-pill p-1">
+                        <a href="log.html" class="nb-style"><p class="h6 font-smb text-black text-center mt-1">LOGIN HERE</p></a>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
+   
     
 
 
-
+    <script src="script.js"></script>
     <script src="js/bootstrap.js"></script>
 </body>
 </html>
