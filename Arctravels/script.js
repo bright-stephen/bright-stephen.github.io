@@ -1,33 +1,38 @@
 // for sign up
 function validateForm() {
     const firstName = document.getElementById("firstname").value;
+    const message = "fill in you first name";
     if (firstName == "") {
-        alert("Name field must not be empty please fill in your first name");
+        document.getElementById("inputdemo").innerHTML = message;
         return false;
     }
 
     const lastName = document.getElementById("lastname").value;
+    const message2 = "fill in you last name";
     if (lastName == "") {
-        alert("Name field must not be empty please fill in your last name");
+        document.getElementById("inputdemo2").innerHTML = message2;
         return false;
     }
 
     const address = document.getElementById("address").value;
+    const message3 = "fill in your address";
     if (address == "") {
-        alert("Address field must not be empty please fill in your Address");
+        document.getElementById("inputdem3").innerHTML = message3;
         return false;
     }
 
     const email = document.getElementById("email").value;
+    const message4 = "fill in your email";
     if (email == "") {
-        alert("Email field must not be empty please fill in your Email Address");
+        document.getElementById("inputdemo4").innerHTML = message4;
         return false;
     }
 
     const phone = document.getElementById("phone").value;
     const phoneLength = phone.length;
-    if (phoneLength < 10){
-        alert("Invalid phone number");
+    const message5 = "invalid phone number";
+    if (phoneLength < 11){
+        document.getElementById("inputdemo5").innerHTML = message5;
         return false;
     }
 
@@ -37,15 +42,17 @@ function validateForm() {
 function validateForm2() {
     const userName = document.getElementById("username").value;
     const length = userName.length;
+    const message6 = "Username must be more than four characters";
     if (length < 4) {
-        alert("Username must be more than four characters");
+        document.getElementById("inputdemo6").innerHTML = message6;
         return false;
     }
 
     const password = document.getElementById("password").value;
     const length1 = password.length;
+    const message7 = "password not strong";
     if (length1 < 9) {
-        alert("password not strong include signbols and letters")
+        document.getElementById("inputdemo7").innerHTML = message7;
         return false;
     }
 }
