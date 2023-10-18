@@ -7,54 +7,96 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="backgimg-1">
+    <!-- header  -->
+    <!-- nav-bar -->
+    <nav class="navbar navbar-expand-lg" style="background-color: transparent;">
+        <div class="container-fluid">
+            <a class="navbar-brand col-2 active bold-1 text-warning" href="index.html">ARC TRAVELS</a>
+            <button class="navbar-toggler bg-info" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse col-9" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 col-8 col-lg-9">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#">CATEGORIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#">LOCATIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#">ABOUTS US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="sign.html">CONTACTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="sign.html">REGISTER</a>
+                    </li> -->
+                </ul>
+                <form class="d-flex p-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-dark bg-primary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
     <!-- main section -->
-    <div class="container-fluid backgimg-1">
-        <div class="row justify-content-center">
-            <div class="col-xl-3 col-lg-4 col-md-5 col-sm-6 col-8 col-xs-10 mt-5 text-black border border-2 pt-5 pb-5 shadow-lg mb-5 p-3 bg-light rounded">
+    <div class="container-fluid">
+        <div class="row justify-content-evenly rounded-3">
+            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col-8 col-xs-10 text-white mt-5 none">
                 <div>
-                    <p class="h5 font-smf text-center mb-4">CREATE ACCOUNT</p>
+                    <p class="h4 font-smb text-warning">WELCOME TO OUR WEBSITE</p>
+                </div>
+                <div>
+                    <p class="h6 font-smb mb-3">MAKING YOUR DREAM VACATION COME ALIVE!</p>
+                    <div>
+                        <p class="font-smb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptates consequatur animi asperiores similique! Dolorem, quos minus, magnam iusto optio aliquid, obcaecati perferendis numquam ex distinctio aperiam necessitatibus dolores ut!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col-8 col-xs-10 mt-5 text-black border border-2 pt-5 pb-5 shadow-lg mb-5 p-3 backblur rounded">
+                <div>
+                    <p class="h5 font-smf text-center text-white mb-4">CREATE ACCOUNT</p>
                 </div>
                 <form action="https://codeliber.com/form-action.php" onsubmit="return        validateForm()">
-                    <label for="firstname" class="col-12 col-xs-12 mb-2 h6 font-smf">Firstname</label>
-                    <input type="text" name="firstname" id="firstname" class="col-12 col-xs-12 rounded-3 formhp ">
+                    <input type="text" name="firstname" id="firstname" class="col-12 col-xs-12 rounded-3 formhp input p-1 text-white" placeholder="Firstname">
                     <div>
                         <p class="h6 font-smb text-danger" id="inputdemo"></p>
                     </div>
                     <br>
-                    <label for="lastname" class="col-12 col-xs-12 mb-2 h6 font-smf">Lastname</label>
-                    <input type="text" name="lastname" id="lastname" class="col-12 col-xs-12 rounded-3 formhp">
+                    <input type="text" name="lastname" id="lastname" class="col-12 col-xs-12 rounded-3 formhp input p-1 text-white" placeholder="Lastname">
                     <div>
                         <p class="h6 font-smb text-danger" id="inputdemo2"></p>
                     </div>
                     <br>
-                    <label for="address" class="col-12 col-xs-12 mb-2 h6 font-smf">Address</label>
-                    <input type="text" name="address" id="address" class="col-12 col-xs-12 rounded-3 formhp">
+                    <input type="text" name="address" id="address" class="col-12 col-xs-12 rounded-3 formhp input p-1 text-white" placeholder="Address">
                     <div>
                         <p class="h6 font-smb text-danger" id="inputdemo3"></p>
                     </div>
                     <br>
-                    <label for="email" class="col-12 col-xs-12 mb-2 h6 font-smf">Email</label>
-                    <input type="email" name="email" id="email" class="col-12 col-xs-12 rounded-3 formhp">
+                    <input type="email" name="email" id="email" class="col-12 col-xs-12 rounded-3 formhp input p-1 text-white" placeholder="Email">
                     <div>
                         <p class="h6 font-smb text-danger" id="inputdemo4"></p>
                     </div>
                     <br>
-                    <label for="phone" class="col-12 col-xs-12 h6 font-smf">Phone Number</label>
-                    <input type="number" name="phone" id="phone" class="col-12 col-xs-12 rounded-3 formhp">
+                    <input type="number" name="phone" id="phone" class="col-12 col-xs-12 rounded-3 formhp input p-1 text-white" placeholder="Phone Number">
                     <div>
                         <p class="h6 font-smb text-danger" id="inputdemo5"></p>
                     </div>
                     <br>
                     <label for="gender" class="mb-2 h6 font-smb"></label>
-                    <span class="font-smf">Male</span>
+                    <span class="font-smf"><b>Male</b></span>
                     <input type="radio" name="gender" id="gender" class="">
-                    <span class="font-smf">Female</span>
+                    <span class="font-smf"><b>Female</b></span>
                     <input type="radio" name="gender" id="gender" class="">
                     <br>
                     <label for="month" class="mt-3 h6 font-smf">Date of Birth</label>
                     <br>
-                    <select name="month" id="month">
+                    <select name="month" id="month" class="input">
                         <option value="1-">1</option>
                         <option value="2-">2</option>
                         <option value="3-">3</option>
@@ -87,7 +129,7 @@
                         <option value="30-">30</option>
                         <option value="31-">31</option>
                     </select>
-                    <select name="month2" id="month2">
+                    <select name="month2" id="month2" class="input">
                         <option value="January">January</option>
                         <option value="Febuary">Febuary</option>
                         <option value="March">March</option>
@@ -101,7 +143,7 @@
                         <option value="November">November</option>
                         <option value="December">December</option>
                     </select>
-                    <select name="month3" id="month3">
+                    <select name="month3" id="month3" class="input">
                         <option value="1999">2009</option>
                         <option value="1998">2008</option>
                         <option value="1997">2007</option>
@@ -125,12 +167,19 @@
                         <option value="1989">1989</option>
                     </select>
                     <br>
-                    <button type="submit" class="mt-3 mb-3 p-1 bg-secondary h6 font-smf rounded-3">SUBMIT</button>
-                    <div>
-                        <p class="h6 font-sm text-primary">Already have an account?</p>
+                    <div class="d-flex mt-3">
+                        <div><input type="checkbox" name="" id=""><span class="text-black font-smb h6 col-1 ms-1">Allow Notifications</span></div>
                     </div>
-                    <div class="col-12 col-xs-12 bg-primary rounded-pill p-1">
-                        <a href="log.html" class="nb-style"><p class="h6 font-smb text-black text-center mt-1">LOGIN HERE</p></a>
+                    <button type="submit" class="col-12 col-xs-12 bg-black h6 text-white rounded-pill p-2">SUBMIT</button>
+                    <div class="d-flex justify-content-center">
+                        <!-- <div><input type="checkbox" name="" id=""><span class="text-black font-smb h6 col-1 ms-1">Agree to the</span></div> -->
+                        <div>
+                            <p class="h6 font-smb text-primary text-center ms-1"><u>Terms & Conditions</u></p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p class="h6 font-sm text-black">Already have an account?</p>
+                        <a href="log.html"><p class="h6 font-sm text-primary">LOG IN HERE</p></a>
                     </div>
                 </form>
             </div>

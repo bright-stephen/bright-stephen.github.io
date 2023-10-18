@@ -7,29 +7,81 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="backgimg-2">
+      <!-- header  -->
+    <!-- nav-bar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand col-2 active bold-1 text-warning" href="index.html">ARC TRAVELS</a>
+            <button class="navbar-toggler bg-info" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse col-9" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 col-8 col-lg-9">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#">CATEGORIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#">LOCATIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#">ABOUTS US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="sign.html">CONTACTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="sign.html">REGISTER</a>
+                    </li> -->
+                </ul>
+                <form class="d-flex p-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-dark bg-primary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
     <!-- main section -->
-    <div class="container-fluid backgimg-2">
-        <div class="row justify-content-center">
-            <div class="col-xl-3 col-lg-4 col-md-5 col-sm-6 col-8 col-xs-10 text-black mt-5 border border-1 pb-5 pt-5 shadow-lg mb-5 p-3 bg-light rounded">
+    <div class="container-fluid p-5">
+        <div class="row justify-content-evenly rounded-3">
+            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-6 col-8 col-xs-10 text-white mt-5 none">
+                <div>
+                    <p class="h4 font-smb text-warning">WELCOME TO OUR WEBSITE</p>
+                </div>
+                <div>
+                    <p class="h6 font-smb mb-3">MAKING YOUR DREAM VACATION COME ALIVE!</p>
+                    <div>
+                        <p class="font-smb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptates consequatur animi asperiores similique! Dolorem, quos minus, magnam iusto optio aliquid, obcaecati perferendis numquam ex distinctio aperiam necessitatibus dolores ut!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-8 col-10 col-xs-10 text-white mt-5 border border-2 pb-5 pt-5 shadow-lg mb-5 p-3 backblur rounded">
                 <div>
                     <p class="h5 font-smf text-center mb-4">LOG IN</p>
                 </div>
-                <form action="https://codeliber.com/form-action.php" onsubmit="return        validateForm2()">
-                    <label for="username" class="col-12 col-xs-12 mb-2 h6 font-smf">Username</label>
-                    <input type="text" name="username" id="username"  class="col-12 col-xs-12 rounded-3 formhp">
+                <form action="https://codeliber.com/form-action.php" onsubmit="return   validateForm2()" class="">
+                    <!-- <img src="images/person-fill.svg" alt=""> -->
+                    <input type="text" name="username" id="username"  class="col-12 col-xs-12 rounded-3 formhp p-1 text-white input" placeholder="Username">
                     <div>
                         <p class="h6 font-smb text-danger" id="inputdemo6"></p>
                     </div>
                     <br>
-                    <label for="password" class="col-12 col-xs-12 mb-2 h6 font-smf">Password</label>
-                    <input type="password" name="password" id="password"  class="col-12 col-xs-12 rounded-3 formhp">
+                    <!-- <img src="images/lock-fill.svg" alt="" class="ms-auto"> -->
+                    <input type="password" name="password" id="password"  class="col-12 col-xs-12 rounded-3 formhp p-1 text-white input" style="background-color: transparent;" placeholder="Password">
                     <div>
                         <p class="h6 font-smb text-danger" id="inputdemo7"></p>
                     </div>
                     <br>
-                    <p class="h6 font-smb mt-2 text-primary">forget password?</p>
-                    <button type="submit" class="col-12 col-xs-12 mb-3 p-2 bg-primary h6 font-smb rounded-3">LOG IN</button>
+                    <button type="submit" class="col-12 col-xs-12 mb-3 p-2 bg-black h6 font-smb rounded-3">LOG IN</button>
+                    <div class="d-flex justify-content-between">
+                        <div><input type="checkbox" name="" id=""><span class="text-black font-smb h6 col-1 ms-1">Remember me</span></div>
+                        <div>
+                            <p class="h6 font-smb text-primary"><u>Forget password?</u></p>
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>

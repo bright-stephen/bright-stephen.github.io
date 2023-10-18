@@ -15,16 +15,26 @@
     height: 35px;
 }
 .backgimg-1{
-    background-image: url("images/paper11b.jpg");
+    background-image: url("images/Beach.png");
     background-repeat: no-repeat;
-    height: 1000px;
+    height: 1500px;
     /* background-color: rgb(194, 128, 161); */
 }
 .backgimg-2{
-    background-image: url("images/paper11b.jpg");
+    background-image: url("images/Beach.png");
     background-repeat: no-repeat;
     height: 650px;
     /* background-color: rgba(220, 189, 10, 0.649); */
+}
+.backblur{
+    backdrop-filter: blur(50px);
+}
+.input{
+    background-color: transparent;
+    border-top: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    border-color: white;
 }
 
 
@@ -69,13 +79,19 @@
 
     .font-sm{
         font-weight: 500;
-        font-size: 13px;
+        font-size: 10px;
     }
     .font-smb{
-        font-weight: 900;
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .font-smf{
+        font-weight: 500;
         font-size: 18px;
     }
-
+    .none{
+        display: none;
+    }
 
 }
 
@@ -123,12 +139,15 @@
         font-size: 10px;
     }
     .font-smb{
-        font-weight: 900;
-        font-size: 13px;
+        font-weight: 700;
+        font-size: 12px;
     }
     .font-smf{
         font-weight: 500;
         font-size: 18px;
+    }
+    .none{
+        display: none;
     }
 }
 
@@ -179,5 +198,8 @@
     .font-smb{
         font-weight: 900;
         font-size: 10px;
+    }
+    .none{
+        display: none;
     }
 }
