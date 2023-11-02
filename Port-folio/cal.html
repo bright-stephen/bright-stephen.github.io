@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Use my Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body class="bg-success">
+
+    <!-- header section -->
+    <!-- nav-bar -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-transparent">
+            <div class="container-fluid">
+            <a class="navbar-brand text-black ms-3" href="index.html" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">MY CALC</a>
+            <button class="navbar-toggler bg-body-transparent border border-2 border-black" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link font-1 text-black" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link font-1 text-white" href="cal.html">MY CALC</a>
+                    </li> -->
+                    <!-- <li class="nav-item">
+                        <a class="nav-link font-1" href="service.html">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-1" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-1" href="xblog.html">XBLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-1" href="techno.html">TECHNOLOGY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-1" href="contact.html">CONTACTS</a>
+                    </li> -->
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid col-lg-5 col-sm-7 col-10 col-xs-12 mt-5 border border-4 border-black rounded-5 p-4 pb-5 bg-primary">
+        <div class="row">
+            <input class="col-12 col-xs-12 bg-black text-white h1" type="text" id="display" readonly style="height: 100px;">
+        </div>
+        <div class="row justify-content-between mt-2">
+            <button class="col-9 col-xs-9 p-2 rounded-5 bg-secondary text-white h4" onclick="clearDisplay()">CLEAR</button>
+            <button class="col-3 col-xs-3 p-2 rounded-5 bg-warning text-black h4" onclick="appendToDisplay('/')">/</button>
+        </div>
+        <div class="row justify-content-between mt-2">
+            <button class="col-3 col-xs-3 p-2 rounded-5 bg-black text-white h4" onclick="appendToDisplay('7')">7</button>
+            <button class="col-3 col-xs-3 p-2 rounded-5 bg-black text-white h4" onclick="appendToDisplay('8')">8</button>
+            <button class="col-3 col-xs-3 p-2 rounded-5 bg-black text-white h4" onclick="appendToDisplay('9')">9</button>
+            <button class="col-3 col-xs-3 p-2 rounded-5 bg-warning text-black h4" onclick="appendToDisplay('*')">x</button>
+        </div>
+        <div class="row justify-content-between mt-2">
+            <button class="col-3 col-xs-3 p-2 rounded-5 bg-black text-white h4" onclick="appendToDisplay('4')">4</button>
+            <button class="col-3 col-xs-3 p-2 rounded-5 bg-black text-white h4" onclick="appendToDisplay('5')">5</button>
+            <button class="col-3 col-xs-3 p-2 rounded-5 bg-black text-white h4" onclick="appendToDisplay('6')">6</button>
+            <button class="col-3 col-xs-3 p-2 rounded-5 bg-warning text-black h4" onclick="appendToDisplay('-')">-</button>
+        </div>
+        <div class="row justify-content-between mt-2">
+            <button class="col-3 col-xs-3 p-2 rounded-5 bg-black text-white h4" onclick="appendToDisplay('1')">1</button>
+            <button class="col-3 col-xs-3 p-2 rounded-5 bg-black text-white h4" onclick="appendToDisplay('2')">2</button>
+            <button class="col-3 col-xs-3 p-2 rounded-5 bg-black text-white h4" onclick="appendToDisplay('3')">3</button>
+            <button class="col-3 col-xs-3 p-2 rounded-5 bg-warning text-black h4" onclick="appendToDisplay('+')">+</button>
+        </div>
+        <div class="row justify-content-between mt-2">
+            <button class="col-6 col-xs-6 p-2 rounded-5 bg-black text-white h4" onclick="appendToDisplay('0')">0</button>
+            <button class="col-3 col-xs-3 p-2 rounded-5 bg-black text-white h4" onclick="appendToDisplay('.')">.</button>
+            <button class="col-3 col-xs-3 p-2 rounded-5 bg-warning text-black h4" onclick="calculateResult()">=</button>
+        </div>
+    </div>
+
+
+    
+
+   
+    
+    <div class="container-fluid ms-3 mt-5">
+        <div class="row justify-content-between">
+            <div class="col-md-5 col-11 col-xs-11">
+                <p class="h2 font-smb text-black">Hello, I'm Bright</p>
+                <p class="h3 font-smb text-black">and I'm a web designer</p>
+                <p class="font-sm text-warning">XBOT Technology sit amet consectetur adipisicing elit. Voluptatum nobis autem vel accusamus sint? Facere dolores quisquam ipsa aperiam delectus voluptatem atque unde perspiciatis non! Asperiores repellendus blanditiis beatae et.</p>
+            </div>
+            <div class="col-md-5 col-10 col-xs-10">
+                <img src="images/bright dp.jpg" class="rounded-circle img-fluid col-sm-7 col-9 col-xs-10" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    
+
+
+    
+
+   
+
+
+
+
+
+    <script src="cal.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
