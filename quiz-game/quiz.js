@@ -70,7 +70,7 @@ const quizData = [
         correct: 2
     },
     {
-        question: " Value of cos 360°?",
+        question: "whats the Value of cos 360°?",
         choices: ["1", "360", "180", "0"],
         correct: 0
     },
@@ -210,7 +210,7 @@ const quizData = [
         correct: 1
     },
     {
-        question: "The sum of terms equidistant from the beginning and end of an A.P. is equal to?",
+        question: "The sum of terms from the beginning and end of an A.P. is equal to?",
         choices: ["sum of the first and last terms", "last term", "first term", "second term"],
         correct: 0
     },
@@ -245,17 +245,17 @@ const quizData = [
         correct: 2
     },
     {
-        question: "Synonyms of Beautiful",
+        question: "What is the Synonyms of Beautiful?",
         choices: ["georgeous", "ugly", "fine", "awesome"],
         correct: 0
     },
     {
-        question: "Synonyms of Big",
+        question: "What is the Synonyms of Big?",
         choices: ["scanty", "enormous", "Large", "Plenty"],
         correct: 2
     },
     {
-        question: "Synonyms of Brave",
+        question: "What is the Synonyms of Brave?",
         choices: ["intelligent", "capacity", "Bold", "Courageous"],
         correct: 2
     },
@@ -275,7 +275,7 @@ const quizData = [
         correct: 0
     },
     {
-        question: "The largest number of six digits is",
+        question: "The largest number of these six digits is",
         choices: ["4,99,989", "4,91,900", "4,98,989", "4,99,498"],
         correct: 0
     },
@@ -287,7 +287,7 @@ const quizData = [
     {
         question: "Fill in the missing word: ‘Jupiter is hot but the sun is ....... than jupiter",
         choices: ["most hotter", "more hot", "more hotter", "More hotier"],
-        correct: 1
+        correct: 2
     }
 
 
