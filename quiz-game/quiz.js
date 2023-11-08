@@ -11,6 +11,9 @@ if (userData) {
     userDataDisplay.innerHTML = 'No data stored.';
 }
 
+const scoreName = userData.fullName.toUpperCase();
+document.getElementById("nameDisplay").innerHTML = scoreName;
+
 
 
 // displayValue
@@ -107,7 +110,7 @@ const quizData = [
         correct: 0
     },
     {
-        question: "What is the highest common factor of 30 and 132?",
+        question: "What is the name of the line that touches the circumference of a circle?",
         choices: ["arc", "stroke", "line", "tangent"],
         correct: 3
     },
@@ -335,6 +338,8 @@ function showResult() {
 
 submitButton.addEventListener("click", checkAnswer);
 loadQuestion();
+
+
 
 
 

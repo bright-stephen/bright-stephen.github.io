@@ -87,12 +87,14 @@
         </div>
     </div>
     <div class="container p-5">
-        <div class="row justify-content-center border border-2 border-black rounded-5 p-3 ps-3 bg-success mt-4">
+        <div class="row justify-content-center border border-2 border-black rounded-5 bg-success mt-4 pb-5">
             <div class="col-lg-6 col-sm-9 col-12">
                 <div id="quiz">
-                    <h1>Questions</h1>
-                    <p id="question" class="h4"></p>
-                    <form id="choices-form">
+                    <div class="bg-warning p-3 border border-2 border-black rounded-5 mb-4 mt-2">
+                        <h1>Questions</h1>
+                        <p id="question" class="h4"></p>
+                    </div>
+                    <form id="choices-form" class="ps-4">
                         <label class="h5 col-12">
                             <input type="radio" name="choice" value="0"> <span id="choice0"></span>
                         </label>
@@ -115,7 +117,13 @@
         <div class="row justify-content-center border border-2 border-black rounded-5 p-3 ps-3 mt-4" style="background-color: #FFB051;">
             <div class="col-lg-6 col-sm-9 col-12">
                 <div id="result" style="display: none;" class="">
-                    <p class="h4">Your Total Score: <span id="score" class="h2">0</span></p>
+                    <p class="h4"><h3 id="nameDisplay"></h3> Your Total Score: <span id="score" class="h2">0</span></p>
+                    <a href="https://www.facebook.com/profile.php?id=61551468085516" target="_blank"><button class="btn btn-primary">SUBMIT SCORE</button></a>
+                    <h6>Screenshot and Submit</h6>
+                    <h6>Send as a DM</h6>
+                    <div class="row">
+                        <h6 class="col-6">Like and follow our page<img src="images/hand-thumbs-up-fill.svg" alt="" class="img-fluid "></h6>
+                    </div>
                 </div>
             </div>
         </div>

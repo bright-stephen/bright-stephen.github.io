@@ -16,47 +16,164 @@
                 <a class="navbar-brand" href="index.html"><h1>QUIZ TIME</h1></a>
                 <div class="d-lg-none">
                     <!-- off canvas trigger-->
-                    <button class="btn ms-5 me-sm-2 me-md-3 canv col-md-5 col-sm-6 col-6 col-xs-6 border border-2 border-black" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                        <span class="navbar-toggler-icon"></span>
+                    <button class="btn btn-primary canv col-12 col-xs-12 border border-2 border-black" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                        SCORE BOARD
                     </button>
                     <!-- off canvas -->
                     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                         <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">CALCULATOR</h5>
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">QUIZ SCORE LEADERBOARD</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body" style="background-color: #FFB051;">
-                            <!-- calculator  -->
-                            <div class="container-fluid col-lg-5 col-sm-7 col-10 col-xs-12 mt-5 border border-4 border-black rounded-5 p-4 pb-5 bg-primary">
-                                <div class="row">
-                                    <input class="col-12 col-xs-12 bg-black text-white h1" type="text" id="display" readonly style="height: 100px;">
+                            <div class="container-fluid border border-2 border-black rounded-5 p-3 ps-3 bg-primary">
+                                <div class="text-center mb-3"><h3><u>TOP QUIZ SCORES(20)</u></h3></div>
+                                <div class="row justify-content-between">
+                                    <div class="col-6">
+                                        <h6>FULL NAME</h6>
+                                    </div>
+                                    <div class="col-2">
+                                        <h6>GENDER</h6>
+                                    </div>
+                                    <div class="col-2">
+                                        <h6>SCORE</h6>
+                                    </div>
                                 </div>
-                                <div class="row justify-content-between mt-2">
-                                    <button class="col-9 col-xs-9 p-2 rounded-5 bg-secondary text-white h4" onclick="clearDisplay()">CLEAR</button>
-                                    <button class="col-3 col-xs-3 p-2 rounded-5 bg-warning text-black h4" onclick="appendToDisplay('/')">/</button>
+                                <div class="row justify-content-between">
+                                    <div class="col-1">
+                                        <h6>1.</h6>
+                                    </div>
+                                    <div class="col-6">
+                                        <h6>Bright Stephen</h6>
+                                    </div>
+                                    <div class="col-3">
+                                        <h6>Male</h6>
+                                    </div>
+                                    <div class="col-2">
+                                        <h6>98</h6>
+                                    </div>
                                 </div>
-                                <div class="row justify-content-between mt-2">
-                                    <button class="col-3 col-xs-3 p-2 rounded-5 bg-black text-white h4" onclick="appendToDisplay('7')">7</button>
-                                    <button class="col-3 col-xs-3 p-2 rounded-5 bg-black text-white h4" onclick="appendToDisplay('8')">8</button>
-                                    <button class="col-3 col-xs-3 p-2 rounded-5 bg-black text-white h4" onclick="appendToDisplay('9')">9</button>
-                                    <button class="col-3 col-xs-3 p-2 rounded-5 bg-warning text-black h4" onclick="appendToDisplay('*')">x</button>
+                                <div class="row justify-content-between">
+                                    <div class="col-1">
+                                        <h6>2.</h6>
+                                    </div>
+                                    <div class="col-6">
+                                        <h6>Isaiah Henry</h6>
+                                    </div>
+                                    <div class="col-3">
+                                        <h6>Male</h6>
+                                    </div>
+                                    <div class="col-2">
+                                        <h6>64</h6>
+                                    </div>
                                 </div>
-                                <div class="row justify-content-between mt-2">
-                                    <button class="col-3 col-xs-3 p-2 rounded-5 bg-black text-white h4" onclick="appendToDisplay('4')">4</button>
-                                    <button class="col-3 col-xs-3 p-2 rounded-5 bg-black text-white h4" onclick="appendToDisplay('5')">5</button>
-                                    <button class="col-3 col-xs-3 p-2 rounded-5 bg-black text-white h4" onclick="appendToDisplay('6')">6</button>
-                                    <button class="col-3 col-xs-3 p-2 rounded-5 bg-warning text-black h4" onclick="appendToDisplay('-')">-</button>
+                                <div class="row justify-content-between">
+                                    <div class="col-1">
+                                        <h6>3.</h6>
+                                    </div>
+                                    <div class="col-6">
+                                        <h6>Stella Maris</h6>
+                                    </div>
+                                    <div class="col-3">
+                                        <h6>Female</h6>
+                                    </div>
+                                    <div class="col-2">
+                                        <h6>56</h6>
+                                    </div>
                                 </div>
-                                <div class="row justify-content-between mt-2">
-                                    <button class="col-3 col-xs-3 p-2 rounded-5 bg-black text-white h4" onclick="appendToDisplay('1')">1</button>
-                                    <button class="col-3 col-xs-3 p-2 rounded-5 bg-black text-white h4" onclick="appendToDisplay('2')">2</button>
-                                    <button class="col-3 col-xs-3 p-2 rounded-5 bg-black text-white h4" onclick="appendToDisplay('3')">3</button>
-                                    <button class="col-3 col-xs-3 p-2 rounded-5 bg-warning text-black h4" onclick="appendToDisplay('+')">+</button>
+                                <div class="row justify-content-between">
+                                    <div class="col-1">
+                                        <h6>4.</h6>
+                                    </div>
+                                    <div class="col-6">
+                                        <h6>Prince Emmanuel</h6>
+                                    </div>
+                                    <div class="col-3">
+                                        <h6>Male</h6>
+                                    </div>
+                                    <div class="col-2">
+                                        <h6>54</h6>
+                                    </div>
                                 </div>
-                                <div class="row justify-content-between mt-2">
-                                    <button class="col-6 col-xs-6 p-2 rounded-5 bg-black text-white h4" onclick="appendToDisplay('0')">0</button>
-                                    <button class="col-3 col-xs-3 p-2 rounded-5 bg-black text-white h4" onclick="appendToDisplay('.')">.</button>
-                                    <button class="col-3 col-xs-3 p-2 rounded-5 bg-warning text-black h4" onclick="calculateResult()">=</button>
+                                <div class="row justify-content-between">
+                                    <div class="col-1">
+                                        <h6>5.</h6>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-between">
+                                    <div class="col-1">
+                                        <h6>6.</h6>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-between">
+                                    <div class="col-1">
+                                        <h6>7.</h6>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-between">
+                                    <div class="col-1">
+                                        <h6>8.</h6>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-between">
+                                    <div class="col-1">
+                                        <h6>9.</h6>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-between">
+                                    <div class="col-1">
+                                        <h6>10.</h6>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-between">
+                                    <div class="col-1">
+                                        <h6>11.</h6>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-between">
+                                    <div class="col-1">
+                                        <h6>12.</h6>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-between">
+                                    <div class="col-1">
+                                        <h6>13.</h6>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-between">
+                                    <div class="col-1">
+                                        <h6>14.</h6>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-between">
+                                    <div class="col-1">
+                                        <h6>15.</h6>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-between">
+                                    <div class="col-1">
+                                        <h6>16.</h6>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-between">
+                                    <div class="col-1">
+                                        <h6>17.</h6>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-between">
+                                    <div class="col-1">
+                                        <h6>18.</h6>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-between">
+                                    <div class="col-1">
+                                        <h6>19.</h6>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-between">
+                                    <div class="col-1">
+                                        <h6>20.</h6>
+                                    </div>
                                 </div>
                             </div>
                             <div class="container-fluid ms-3 mt-5">
@@ -103,6 +220,29 @@
                     <a href="quiz.html"><button type="button" class="btn btn-success mt-4 h5 text-black" onclick="storeData()">START QUIZ</button></a>
                 </form>
             </div>
+        </div>
+   </div>
+
+   <div class="container-fluid mt-4">
+        <div class="row text-white ms-5">
+            <h1>QUIZ RULES</h1>
+            <ul class="h6">
+                <li>Each Questions carries equal mark</li>
+                <li>Two(2) marks per questions</li>
+                <li>A Total of 50 questions to be answered(ie. Total over 100)</li>
+                <li>Fill in your correct details before starting, in-order to track your score</li>
+                <li>Avoid quiting the quiz page on your browser, you may loose your score if the page refreshes</li>
+                <li>Submit your score after your are done answering all questions</li>
+                <li>Send a Screenshot of your score below</li>
+                <a href="https://www.facebook.com/profile.php?id=61551468085516" target="_blank"><button class="btn btn-success">SUBMIT SCORE</button></a>
+                <li>Questions will be changed periodically</li>
+                <li>Persons with higher score will be rewarded(TOP 3)</li>
+                <li>periodically the leader of the score board will be rewarded</li>
+                <li>Check score board to know your score position</li>
+                <li>Like and follow our page after submitting your score</li>
+                <li>Use the below button to ask us any questions</li>
+                <a href="https://wa.me/message/TNPPRXYSJDA6E1" target="_blank"><button class="btn btn-warning">MESSAGE US</button></a>
+            </ul>
         </div>
    </div>
     <script src="js/bootstrap.js"></script>
