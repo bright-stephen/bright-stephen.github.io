@@ -210,14 +210,16 @@
                 <form action="" id="quizform" class="border border-2 border-black rounded-5 p-3 ps-3 bg-primary">
                     <label for="" class="h5">FULL NAME</label>
                     <input type="text" id="name" class="form-control" required>
+                    <p id="message1" class="text-danger h6"></p>
                     <label for="" class="h5 mt-2">EMAIL</label>
                     <input type="email" id="email" class="form-control" required>
+                    <p id="message2" class="text-danger h6"></p>
                     <label for="" class="h5 mt-2">GENDER</label>
                     <select name="" id="gender" class="form-control" required>
                         <option value="male" class="h6">Male</option>
                         <option value="female" class="h6">Female</option>
                     </select>
-                    <a href="quiz.html"><button type="button" class="btn btn-success mt-4 h5 text-black" onclick="storeData()">START QUIZ</button></a>
+                    <button type="button" class="btn btn-success mt-4 h5 text-black" onclick="storeData()">START QUIZ</button>
                 </form>
             </div>
         </div>

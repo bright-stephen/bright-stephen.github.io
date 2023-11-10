@@ -76,58 +76,55 @@
             </div>
         </nav>
     </header>
-    <div class="container border border-2 border-black rounded-5 p-3 ps-3 bg-primary mt-5">
+    <div id="userData" class="container shadow-lg p-3 mb-5 rounded-1 p-3 ps-3 mt-5" style="background-color: #FFB051;">
         <div class="row">
             <div class="col-lg-6 col-12 h5" id="userDataDisplay">
                 
             </div>
-            <div class="col-lg-6 col-12 h4" id="userDataDisplay">
-                CURRENT SCORE: <span id="userScoreDisplay" class="h1"></span>
+            <div class="col-lg-6 col-12 h4 shadow-lg p-3 rounded-1 border border-black p-2 bg-primary text-white" id="userScore">
+                CURRENT SCORE: <span id="userScoreDisplay" class="h1 ms-3 shadow-lg p-3 rounded-3 border p-4 bg-success"></span>
             </div>
         </div>
     </div>
-    <div class="container p-5">
-        <div class="row justify-content-center border border-2 border-black rounded-5 bg-success mt-4 pb-5">
+    <div id="quiz" class="container">
+        <div class="row justify-content-center shadow-lg p-3 mb-5 rounded-2 bg-success mt-4 pb-5">
             <div class="col-lg-6 col-sm-9 col-12">
-                <div id="quiz">
-                    <div class="bg-warning p-3 border border-2 border-black rounded-5 mb-4 mt-2">
-                        <h1>Questions</h1>
-                        <p id="question" class="h4"></p>
-                    </div>
-                    <form id="choices-form" class="ps-4">
-                        <label class="h5 col-12">
-                            <input type="radio" name="choice" value="0"> <span id="choice0"></span>
-                        </label>
-                        <label class="h5 col-12">
-                            <input type="radio" name="choice" value="1"> <span id="choice1"></span>
-                        </label>
-                        <label class="h5 col-12">
-                            <input type="radio" name="choice" value="2"> <span id="choice2"></span>
-                        </label>
-                        <label class="h5 col-12">
-                            <input type="radio" name="choice" value="3"> <span id="choice3"></span>
-                        </label>
-                    </form>
-                    <button id="submit" class="btn btn-primary mt-2">Submit Answer</button>
+                <div class="bg-warning shadow-lg p-3 mb-5 p-3 border-black rounded-3 mb-4 mt-2">
+                    <h1>Questions?</h1>
+                    <p id="question" class="h4"></p>
                 </div>
+                <form id="choices-form" class="ps-4">
+                    <label class="h5 col-12">
+                        <input type="radio" name="choice" value="0"> <span id="choice0"></span>
+                    </label>
+                    <label class="h5 col-12">
+                        <input type="radio" name="choice" value="1"> <span id="choice1"></span>
+                    </label>
+                    <label class="h5 col-12">
+                                    <input type="radio" name="choice" value="2"> <span id="choice2"></span>
+                    </label>
+                    <label class="h5 col-12">
+                                    <input type="radio" name="choice" value="3"> <span id="choice3"></span>
+                    </label>
+                </form>
+                <button id="submit" class="btn btn-primary mt-2">Submit Answer</button>
             </div>
         </div>
     </div>
-   <div class="container p-5">
-        <div class="row justify-content-center border border-2 border-black rounded-5 p-3 ps-3 mt-4" style="background-color: #FFB051;">
+    <div id="result" style="display: none; background-color: #FFB051;" class="container-fluid col-11 mt-4">
+        <div class="row justify-content-center shadow-lg p-3 mb-5 rounded-2 border border-white p-3 ps-3">
             <div class="col-lg-6 col-sm-9 col-12">
-                <div id="result" style="display: none;" class="">
-                    <p class="h4"><h3 id="nameDisplay"></h3> Your Total Score: <span id="score" class="h2">0</span></p>
-                    <a href="https://www.facebook.com/profile.php?id=61551468085516" target="_blank"><button class="btn btn-primary">SUBMIT SCORE</button></a>
-                    <h6>Screenshot and Submit</h6>
-                    <h6>Send as a DM</h6>
-                    <div class="row">
-                        <h6 class="col-12">Like and follow our page<img src="images/hand-thumbs-up-fill.svg" alt="" class="img-fluid "></h6>
-                    </div>
-                </div>
+                <h3 id="nameDisplay" class="mb-5"></h3>
+                <h4 id="message" class="mb-5"></h4>
+                <p class="h4">Your Total Score: <span id="score" class="h2 ms-3 shadow-lg p-3 rounded-3 border p-4 bg-success text-white">0</span></p>
+                <a href="https://www.facebook.com/profile.php?id=61551468085516" target="_blank"><button class="btn btn-primary">SUBMIT SCORE</button></a>
+                <h6>Screenshot and Submit</h6>
+                <h6>Send as a DM</h6>
+                <div class="row">
+                <h6 class="col-12">Like and follow our page<img src="images/hand-thumbs-up-fill.svg" alt="" class="img-fluid "></h6>
             </div>
         </div>
-   </div>
+    </div>
 
 
 

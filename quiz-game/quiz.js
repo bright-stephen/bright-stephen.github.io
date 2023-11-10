@@ -330,7 +330,21 @@ function checkAnswer() {
     }
 }
 
-function showResult() {
+function showResult() { 
+    const resultMessage = document.getElementById("message")
+    if (score >= 80) {
+        resultMessage.innerHTML = "GRADE: A = Excellent Score!!"
+    } else if (score >= 60) {
+        resultMessage.innerHTML = "GRADE: B = Good!!"
+    } else if (score >= 40) {
+        resultMessage.innerHTML = "GRADE: C = You Tried!!"
+    } else if(score >= 20 ) {
+        resultMessage.innerHTML = "GRADE: D = Pass!!"
+    } else {
+        resultMessage.innerHTML = "GRADE: F = Poor Score!!";
+    }
+    const userData = document.getElementById("userData");
+    userData.style.display = "none";
     quiz.style.display = "none";
     resultElement.style.display = "block";
     scoreElement.textContent = score;
