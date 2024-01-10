@@ -40,3 +40,9 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+@media (min-width:576px) and (max-width:767px) {
+    .font {
+        font-size: 11px;
+    }
+}
