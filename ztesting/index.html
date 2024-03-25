@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Images from Pixabay API</title>
+</head>
+<body>
+  <div id="imageGallery"></div>
+
+  <script>
+    fetch('https://pixabay.com/api/?key=42217038-7a12c21495b8c7df6c887dfc1&q=yellow+flowers&image_type=photo&pretty=true')
+      .then(response => response.json())
+      .then(data => {
+        // Work with the 'data' variable which contains the fetched data
+        const imageGalleryElement = document.getElementById('imageGallery');
+        data.hits.forEach(image => {
+          const imageElement = document.createElement('div');
+          imageElement.innerHTML = `
+            <img src="${image.largeImageURL}" alt="${image.tags}">
+          `;
+          imageGalleryElement.appendChild(imageElement);
+        });
+      })
+      .catch(error => console.error('Error fetching data:', error));
+  </script>
+</body>
+</html>
