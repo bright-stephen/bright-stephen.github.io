@@ -46,6 +46,33 @@
     height: 50px;
 }
 
+.itech01{
+    position: relative;
+    width: 100%;
+}
+
+.video01{
+    width: 100%;
+    height: auto;
+}
+
+.image01{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 999;
+    width: 18%;
+}
+
+.text01{
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    z-index: 999;
+    width: 18%;
+}
+
+
 
 
 
@@ -102,6 +129,13 @@
     .image-1b{
         height: 20px;
     }
+    .text01{
+        position: absolute;
+        top: 120px;
+        left: 10px;
+        z-index: 999;
+        width: 18%;
+    }
 }
 
 /* for Xtra Extra small devices */
@@ -157,6 +191,7 @@
     .image-1b{
         height: 20px;
     }
+    
 }
 
 
