@@ -191,6 +191,10 @@
     .image-1b{
         height: 20px;
     }
+    .myfont{
+        font-size: 15px;
+        font-weight: 600;
+    }
     
 }
 
@@ -247,5 +251,15 @@
     }
     .image-1b{
         height: 20px;
+    }
+    .myfont{
+        padding: 4px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .myfont01{
+        padding: 2px;
+        font-size: 22px;
+        font-weight: 800;
     }
 }
