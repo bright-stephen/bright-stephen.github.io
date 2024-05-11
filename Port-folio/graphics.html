@@ -9,19 +9,28 @@
     <link rel="icon" href="images/logo.png">
 </head>
 <body style="background-color: #6e789e;" class="p-3">
-     <!-- header section -->
+    <!-- header section -->
     <!-- nav-bar -->
     <header>
         <nav class="navbar navbar-expand-lg bg-body-transparent">
             <div class="container-fluid">
-            <a class="navbar-brand text-black ms-3 h3 text-white" href="index.html" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">GRAPHICS</a>
+            <a class="navbar-brand text-black ms-3 h3 text-white myfont01" href="index.html" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">GRAPHICS</a>
             <button class="navbar-toggler bg-body-transparent border border-2 bg-primary border-black" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
                     <li class="nav-item">
-                        <a class="nav-link font-1 text-white" aria-current="page" href="index.html">HOME</a>
+                        <a class="nav-link font-1 myfont text-white" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link h4 text-white myfont" href="graphics.html">INFINITE GRAPHIXS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link h4 text-white myfont" href="web.html">WEB PROJECT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link h4 text-white myfont" href="cal.html">CALCULATOR</a>
                     </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link font-1 text-white" href="cal.html">MY CALC</a>
@@ -51,10 +60,10 @@
         </nav>
     </header>
     <div class="mt-4 mb-2 text-white">
-        <h6>I Design & Print all kinds of flyers/posters, letterhead, logo, buisness/id card, mock-up etc.</h6>
-        <h5>This are my previous designs</h5>
+        <h6 class="myfont">I Design & Print all kinds of flyers/posters, letterhead, logo, buisness/id card, mock-up etc.</h6>
+        <h5 class="myfont">These are some of my designs:</h5>
     </div>
-   <div class="mt-4 container-fluid">
+    <div class="mt-4 container-fluid">
         <div class="row justify-content-evenly">
             <div class="text-center border border-4 rounded-4 p-2 mt-3 col-xl-2 col-lg-3 col-md-4 col-sm-6" style="background-color: purple;">
                 <img src="images/FB_IMG_17142192546717780.jpg" class="img-fluid mt-2" alt="">
@@ -135,14 +144,48 @@
             <p class="h6 myfont01 text-white">CONTACTS DETAILS</p>
         </div>
         <div class="text-center">
-            <span class="text-white myfont">E-mail: infinitetechnology04@gmail.com</span>
+            <span class="text-white myfont"><img src="./images/Lumii_20240510_182836131.png" class="img-fluid" width="20px" alt=""> Infinite Technology</span>
         </div>
         <div class="text-center">
-            <span class="text-white myfont">Phone Number: 07059112678, 08107069369</span>
+            <span class="text-white myfont"><img src="./images/Lumii_20240507_065731537.png" class="img-fluid" width="20px" alt=""> infinite_graphixs</span>
         </div>
         <div class="text-center">
-            <p class="myfont text-white mt-4">Location: Port-Harcourt Rivers state, Nigeria</p>
+            <span class="text-white myfont"><img src="./images/Lumii_20240507_065646514.png" class="img-fluid" width="20px" alt=""> infinitetechnology04@gmail.com</span>
         </div>
+        <div class="text-center">
+            <span class="text-white myfont"><img src="./images/Lumii_20240510_183826088.png" class="img-fluid" width="20px" alt=""> 07059112678, 08107069369</span>
+        </div>
+        <div class="text-center">
+            <img src="images/Lumii_20240510_182929757.png" class="img-fluid" width="20px" alt="">
+            <img src="images/Lumii_20240510_183229646.png" class="img-fluid" width="20px" alt="">
+            <img src="images/Lumii_20240510_182637646.png" class="img-fluid" width="20px" alt="">
+            <img src="images/Lumii_20240510_182735964.png" class="img-fluid" width="20px" alt="">
+        </div>
+        <div class="text-center">
+            <p class="myfont text-white mt-2"><img src="./images/Lumii_20240510_183732549.png" class="img-fluid" width="20px" alt=""> Port-Harcourt Rivers state, Nigeria</p>
+        </div>
+                <!-- Contact Section -->
+                <section id="contact" class="py-5">
+                    <div class="container text-white">
+                        <h4>Message me</h4>
+                        <p>Feel free to get in touch!</p>
+                        <form action="contact.php" method="post">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                        </form>
+                    </div>
+                </section>
         <!-- carousel -->
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -154,6 +197,9 @@
             </div>
             <div class="carousel-item" data-bs-interval="3000">
                 <img src="images/Lumii_20240405_221904378.png" class="d-block w-100 image3" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="images/20240510_201135.jpg" class="d-block w-100 image3" alt="...">
             </div>
         </div>
         <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

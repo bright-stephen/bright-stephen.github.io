@@ -72,6 +72,21 @@
     width: 18%;
 }
 
+.text02{
+    color: black;
+    font-weight: 700;
+}
+
+.text02:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+    color: blue;
+}
+
+.margin{
+    margin-left: 100px;
+}
+
 
 
 
