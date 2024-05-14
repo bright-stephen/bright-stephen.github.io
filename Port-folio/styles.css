@@ -73,13 +73,13 @@
 }
 
 .text02{
-    color: black;
+    color: white;
     font-weight: 700;
 }
 
 .text02:hover{
     text-decoration: underline;
-    text-decoration-color: black;
+    text-decoration-color: blue;
     color: blue;
 }
 
